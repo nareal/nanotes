@@ -6,7 +6,7 @@ This is a quarto extension to provide a PDF template to create handout notes. It
 
 If you want to start with a template do:
 ```bash
-quarto use extension nareal/nanotes
+quarto use template nareal/nanotes
 ```
 
 You just want to install the extension use:
@@ -19,6 +19,16 @@ This command installs the extensions under the `_extension` subdirectory.
 If you want you can specify the version number:
 ```bash
 quarto install extension nareal/nanotes@v1.0
+```
+
+To update the extension use:
+```bash
+quarto update extension nareal/nanotes
+```
+
+and to remove it:
+```bash
+quarto remove extension nareal/nanotes
 ```
 
 ## Usage
@@ -39,4 +49,8 @@ format:
     university: "University Name"
     school: "School Name"
     logofilepath: file_path_to_logo.pdf
+    mainfont: SF Pro Text
+    sansfont: SF Pro Text
+    logofilepath: um-eeg.pdf
+bibliography: bibliography.bib
 ```
