@@ -1,0 +1,47 @@
+\newcommand{\makeheader}{
+\AddToShipoutPicture*{\put(-2.93cm,\dimexpr\paperheight-4.0cm){%
+$if(logofilepath)$
+\makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{$logofilepath$}}%
+$else$
+\makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{_extensions/nanotes/um-eeg.pdf}}%
+$endif$
+}}
+
+\parbox[b]{\textwidth+\marginparsep+\marginparwidth}{
+	% \ \\[0.7cm]
+	\flushright
+	\large{$if(coursename)$\textbf{$coursename$}$endif$} $if(academicyear)$- \textbf{$academicyear$}$endif$\\
+	{\color{mygrey}
+    	$if(degree)$$degree$$endif$\\
+    	$if(school)$\large $school$$endif$\\
+    	$if(university)$\large $university$$endif$\\
+    }
+
+	\vspace*{15mm}
+	\begin{center}
+		$if(title)$
+		{\Large{\textbf{$title$}}}\\
+		$endif$		
+		$if(subtitle)$
+		\textbf{$subtitle$}\\
+		$endif$		
+		$if(author)$
+		\vspace*{5mm}
+		{\color{mygrey}
+			$for(author)$$author$$sep$ \and $endfor$\\
+			$date$
+		}
+		$endif$		
+	\end{center}
+} 
+}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$

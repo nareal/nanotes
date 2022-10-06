@@ -1,0 +1,35 @@
+title: Notes
+autor: Nelson Areal
+version: 1.0.0
+contributes:
+  format:
+    pdf: 
+      documentclass: scrartcl
+      classoption: [letterpaper, DIV=11, numbers=noendperiod,oneside]
+      template-partials: 
+        - title.tex
+        - before-body.tex
+      include-in-header: 
+        text: |
+          \usepackage{amsmath}
+          \usepackage{picture}
+          \usepackage{eso-pic}
+          \usepackage[makeroom]{cancel}
+          \newcommand*{\mathcolor}{}
+          \def\mathcolor#1#{\mathcoloraux{#1}}
+          \newcommand*{\mathcoloraux}[3]{%
+            \protect\leavevmode
+            \begingroup
+              \color#1{#2}#3%
+            \endgroup
+          }
+          \definecolor{mygrey}{rgb}{0.71,0.71,0.71}
+      geometry:
+        - left=1in
+        - marginparwidth=2.0666666666667in
+        - textwidth=4.1333333333333in
+        - marginparsep=0.3in
+      pdf-engine: xelatex
+      mainfont: NewsGotT
+      sansfont: NewsGotT
+      reference-location: margin

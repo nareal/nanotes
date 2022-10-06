@@ -1,0 +1,22 @@
+---
+title: "Title"
+subtitle: "Notes on..."
+author: Nelson Areal
+date: "`r Sys.Date()`"
+format:
+  nanotes-pdf: 
+    #keep-tex: true
+    coursename: "Course name"
+    academicyear: 2022/2023
+    degree: "Undergratuate degree in "
+    university: "University of Minho"
+    school: "School of Economics and Management"
+    #mainfont: SF Pro Text
+    #sansfont: SF Pro Text
+    #logofilepath: um-eeg.pdf
+#bibliography: bibliography.bib
+reference-location: margin
+citation-location: margin
+---
+
+Notes...
