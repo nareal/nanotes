@@ -1,6 +1,6 @@
 # nanotes
 
-This is a quarto extension to provide a PDF template to create handout notes. It adds a header to the standard quarto template so it supports all the features of this  [Tufte like handout](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf) from the [quarto Gallery](https://quarto.org/docs/gallery/).
+This is a [Quarto](https://quarto.org/) extension to provide a PDF template to create handout notes. It adds a header to the standard quarto template, so it supports all the features of this  [Tufte like handout](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf) from the [quarto Gallery](https://quarto.org/docs/gallery/).
 
 ## Installation
 
