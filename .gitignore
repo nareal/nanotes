@@ -1,5 +1,6 @@
 *.html
 *.pdf
 *_files/
+!_extensions/nanotes/*.pdf
 
 /.luarc.json
