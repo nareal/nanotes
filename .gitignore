@@ -6,3 +6,4 @@
 /.quarto/
 _quarto.yaml
 template.fdb_latexmk
+!docs/*.pdf
