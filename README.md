@@ -9,16 +9,16 @@ If you want to start with a template do:
 quarto use template nareal/nanotes
 ```
 
-You just want to install the extension use:
+You just want to add the extension use:
 ```bash
-quarto install extension nareal/nanotes
+quarto add  nareal/nanotes
 ```
 
 This command installs the extensions under the `_extension` subdirectory.
 
 If you want you can specify the version number:
 ```bash
-quarto install extension nareal/nanotes@v1.0
+quarto add nareal/nanotes@v1.0
 ```
 
 To update the extension use:
@@ -54,3 +54,7 @@ format:
     logofilepath: um-eeg.pdf
 bibliography: bibliography.bib
 ```
+
+## Example
+
+Here is the source code of an example file: [template.qmd](template.qmd) and the [rendered PDF file](https://nareal.github.io/nanotes/template.pdf).
