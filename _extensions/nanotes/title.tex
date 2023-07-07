@@ -3,7 +3,9 @@
 $if(logofilepath)$
 \makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{$logofilepath$}}%
 $else$
-\makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{_extensions/nareal/nanotes/um-eeg.pdf}}%
+\IfFileExists{_extensions/nareal/nanotes/um-eeg.pdf}{
+	\makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{_extensions/nareal/nanotes/um-eeg.pdf}}}
+	{\makebox[\textwidth]{\includegraphics[width=4.74cm,height=4.88cm]{_extensions/nanotes/um-eeg.pdf}}}%
 $endif$
 }}
 
