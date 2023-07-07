@@ -2,5 +2,7 @@
 *.pdf
 *_files/
 !_extensions/nanotes/*.pdf
-
 /.luarc.json
+/.quarto/
+_quarto.yaml
+template.fdb_latexmk
