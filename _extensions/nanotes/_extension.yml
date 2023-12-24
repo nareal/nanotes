@@ -1,6 +1,6 @@
 title: Notes
 autor: Nelson Areal
-version: 1.0.3
+version: 1.0.4
 contributes:
   format:
     pdf: 
@@ -15,7 +15,7 @@ contributes:
           \usepackage{picture}
           \usepackage{eso-pic}
           \usepackage[makeroom]{cancel}
-          \newcommand*{\mathcolor}{}
+          \renewcommand*{\mathcolor}{}
           \def\mathcolor#1#{\mathcoloraux{#1}}
           \newcommand*{\mathcoloraux}[3]{%
             \protect\leavevmode

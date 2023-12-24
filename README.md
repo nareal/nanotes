@@ -1,5 +1,7 @@
 # nanotes
 
+![GitHub Action Status](https://img.shields.io/github/actions/workflow/status/nareal/nanotes/publish.yml)
+
 This is a [Quarto](https://quarto.org/) extension to provide a PDF template to create handout notes. It adds a header to the standard quarto template, so it supports all the features of this  [Tufte like handout](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf) from the [quarto Gallery](https://quarto.org/docs/gallery/).
 
 ## Installation
@@ -49,12 +51,12 @@ format:
     university: "University Name"
     school: "School Name"
     logofilepath: file_path_to_logo.pdf
-    mainfont: SF Pro Text
-    sansfont: SF Pro Text
+    #mainfont: SF Pro Text # Make sure you select a font installed in your system
+    #sansfont: SF Pro Text #  Make sure you select a font installed in your system
     logofilepath: um-eeg.pdf
 bibliography: bibliography.bib
 ```
 
 ## Example
 
-Here is the source code of an example file: [template.qmd](template.qmd) and the [rendered PDF file](https://nareal.github.io/nanotes/template.pdf).
+Here is the source code of an example file: [template.qmd](template.qmd) and the [rendered PDF file](https://nareal.github.io/nanotes).

@@ -11,8 +11,8 @@ format:
     degree: "Undergratuate degree in "
     university: "University of Minho"
     school: "School of Economics and Management"
-    #mainfont: SF Pro Text
-    #sansfont: SF Pro Text
+    #mainfont: SF Pro Text # Make sure you select a font installed in your system 
+    #sansfont: SF Pro Text #  Make sure you select a font installed in your system
     #logofilepath: um-eeg.pdf
 #bibliography: bibliography.bib
 reference-location: margin
@@ -20,3 +20,4 @@ citation-location: margin
 ---
 
 Notes...
+ 
