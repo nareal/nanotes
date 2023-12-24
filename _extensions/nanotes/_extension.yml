@@ -1,6 +1,6 @@
 title: Notes
 autor: Nelson Areal
-version: 1.0.4
+version: 1.0.5
 contributes:
   format:
     pdf: 
@@ -30,6 +30,6 @@ contributes:
         - textwidth=4.1333333333333in
         - marginparsep=0.3in
       pdf-engine: xelatex
-      mainfont: NewsGotT
-      sansfont: NewsGotT
+      #mainfont: NewsGotT
+      #sansfont: NewsGotT
       reference-location: margin
