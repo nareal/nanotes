@@ -2,7 +2,7 @@
 title: "Title"
 subtitle: "Notes on..."
 author: Nelson Areal
-date: "`r Sys.Date()`"
+date: "2023-12-24"
 format:
   nanotes-pdf: 
     #keep-tex: true
@@ -19,5 +19,4 @@ reference-location: margin
 citation-location: margin
 ---
 
-Notes...
- 
+Notes... 

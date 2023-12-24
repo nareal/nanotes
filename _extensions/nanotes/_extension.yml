@@ -1,11 +1,11 @@
 title: Notes
 autor: Nelson Areal
-version: 1.0.5
+version: 1.0.6
 contributes:
   format:
     pdf: 
       documentclass: scrartcl
-      classoption: [letterpaper, DIV=11, numbers=noendperiod,oneside]
+      classoption: [a4paper, DIV=11, numbers=noendperiod,oneside]
       template-partials: 
         - title.tex
         - before-body.tex
